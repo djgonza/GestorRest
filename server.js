@@ -34,7 +34,7 @@ app.use('/users', require('./controllers/users.controller'));
 app.use('/library', require('./controllers/library.controller'));
 
 // start server
-var port = process.env.PORT === 'production' ? 80 : 4000;
-var server = app.listen(port, function () {
+//var port = process.env.PORT === 'production' ? 80 : 4000;
+var server = app.listen(process.env.PORT || 4000, function () {
 	console.log('Server listening on port ' + port);
 });
