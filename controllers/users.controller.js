@@ -24,6 +24,7 @@ function getUserInfo (req, res) {
 }
 
 function authenticate(req, res) {
+	console.log('Autenticate User...');
 	userService.authenticate(req.body.username, req.body.password)
 		.then((token) => {
 			if (token) {
