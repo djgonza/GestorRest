@@ -1,0 +1,6 @@
+﻿{
+	"connectionStringLocal": "mongodb://localhost:27017/gestor",
+    "connectionString": "mongodb://dvd:dvd181191@gestor-shard-00-00-l6mde.mongodb.net:27017,gestor-shard-00-01-l6mde.mongodb.net:27017,gestor-shard-00-02-l6mde.mongodb.net:27017/gestor?ssl=true&replicaSet=Gestor-shard-0&authSource=admin",
+    "apiUrl": "http://localhost:4000",
+    "secret": "gestoraaa123bbb"
+}
